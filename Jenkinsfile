@@ -8,7 +8,7 @@ pipeline
         stage('continuousdownload'){
                 steps
                 {
-                    git branch: 'test', url: 'https://github.com/lakshmipath/mavenproject.git'
+                    git branch: 'test', url: 'https://github.com/Neelaveni0620/mavenproject.git'
                     
                 }
                 
